@@ -1,0 +1,101 @@
+
+    *{
+margin:0 ;
+font-family:Georgia, 'Times New Roman', Times, serif ;
+ 
+}
+
+.carGame{
+    width :100% ;
+    height :100vh ;
+    background-image: url("download.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+    
+    .hide{
+        display: none;
+    }
+
+    
+    .enemy {
+        width: 60px;
+        height: 100px;
+        /* background-color: blue; */
+        position: absolute;
+
+        bottom: 120px;
+        content: url("IMG-2005.JPG");
+        
+      }
+
+    .car {
+        width: 60px;
+        height: 100px;
+
+        position: absolute;
+
+        bottom: 120px;
+        content: url("IMG-2006.JPG");
+        
+      }
+      .gameArea {
+        width: 400px;
+        height: 100vh;
+        background-color: black;
+        margin: 0 auto;
+        position: relative;
+        border-left: 5px dashed rgb(127, 127, 168);
+        border-right: 5px dashed rgb(127, 127, 168);
+        
+      }
+
+      .lines {
+        width: 10px;
+        height: 100px;
+        position: absolute;
+        margin-left: 195px;
+        background-color: white;
+       
+      }
+      .score {
+        position: absolute;
+        top: 15px;
+        left: 40px;
+        width: 200px;
+        /* height:60px ; */
+
+        background-color: green;
+        text-align: center;
+        color: white;
+        font-size: 2em;
+        /* font-family: fantasy; */
+        
+      }
+
+      .startScreen {
+        position: absolute;
+        background-color: #ee5243;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        z-index: 1;
+        text-align: center;
+        border: 1px solid #ff6b6b;
+        padding: 15px;
+        margin: auto;
+        width: 50%;
+        cursor: pointer;
+        font-family: carfont;
+        font-size: 20px;
+        word-spacing: 10px;
+        text-transform: uppercase;
+        box-shadow: 0 5px 5px #777;
+
+        /* justify-content: center; */
+        
+      }
+     
+
+    
